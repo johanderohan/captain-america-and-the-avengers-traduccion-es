@@ -13,7 +13,7 @@ el parche está en **[Releases](../../releases)**.
 
 ## Estado
 
-Última versión: **[v1.1 — Correcciones de signos, HUD, entrenamiento y créditos](../../releases/tag/v1.1)**.
+Última versión: **[v1.2 — Exclamaciones verticales y legibles](../../releases/tag/v1.2)**.
 
 | Parte | Estado |
 |---|---|
@@ -30,6 +30,12 @@ el parche está en **[Releases](../../releases)**.
 «HELP!» y las onomatopeyas dibujadas (KRAK, WHAM…).
 
 ### Comprobaciones y límites
+
+La **v1.2** redibuja «¡» y «!» verticales en las tres fuentes de texto, manteniendo
+el grosor, el color y el contorno. La fuente que recarga el entrenamiento recibe
+los mismos glifos. Se repitieron las pruebas de signos, opciones, entrenamiento
+con dos mandos, créditos y Segador con esta versión. Solo cambian cuatro recursos
+de fuente respecto a v1.1; los textos y las mecánicas se conservan.
 
 La v1.1 corrige incidencias detectadas por un jugador en la v1.0. Gracias a
 Wave por sus capturas y avisos. Las notas anteriores de v1.0 exageraban la
@@ -58,7 +64,7 @@ parcial; no es una localización oficial.
 
 ## Cómo aplicar el parche
 
-1. Descarga **[Captain-America-and-the-Avengers-es-ES-v1.1.xdelta](../../releases/download/v1.1/Captain-America-and-the-Avengers-es-ES-v1.1.xdelta)**.
+1. Descarga **[Captain-America-and-the-Avengers-es-ES-v1.2.xdelta](../../releases/download/v1.2/Captain-America-and-the-Avengers-es-ES-v1.2.xdelta)**.
 2. Comprueba que tienes la ROM USA **original, sin cabecera adicional y sin otros parches**:
 
    | Dato | Valor |
@@ -73,17 +79,20 @@ parcial; no es una localización oficial.
    o con `xdelta3`:
 
    ```bash
-   xdelta3 -d -s "Captain America and the Avengers (USA).md" Captain-America-and-the-Avengers-es-ES-v1.1.xdelta "Captain America and the Avengers (es-ES).md"
+   xdelta3 -d -s "Captain America and the Avengers (USA).md" Captain-America-and-the-Avengers-es-ES-v1.2.xdelta "Captain America and the Avengers (es-ES).md"
    ```
 
 4. La ROM resultante ocupa también **1.048.576 bytes**. Su MD5 debe ser
-   `db31305dfa0a56d81b8a75f496be64db` y su SHA-256:
-   `245f97fce0d1fcd8ccf0f2c40efc107ae299a3b609add4b6ccb16ec632e1743a`.
+   `ffa59337251464c318efd09a51d51374` y su SHA-256:
+   `ce70a01e0aa4706bcae5b758bf28176a6c8ef3c92ad34512469e8e96988dfa86`.
 5. Inicia una partida nueva. No cargues un estado de emulador creado con otra versión.
 
 Aplica cada versión sobre el **original USA**, no sobre una ROM traducida.
 
 ## Cambios por versión
+
+- **v1.2** — Exclamaciones de apertura y cierre verticales, con punto separado;
+  sustituyen los signos inclinados heredados del original. Capturas renovadas.
 
 - **v1.1** — Corrige ¿/¡, tildes residuales al cambiar dificultad, J del HUD,
   J1/J2, margen de la biografía y J grande de Ojo de Halcón, superposición del
