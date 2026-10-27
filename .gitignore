@@ -1,0 +1,7 @@
+*.bin
+*.gen
+*.smd
+*.xdelta
+*(USA)*.md
+*(es-ES)*.md
+.DS_Store
