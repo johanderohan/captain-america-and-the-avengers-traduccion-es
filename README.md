@@ -13,7 +13,7 @@ el parche está en **[Releases](../../releases)**.
 
 ## Estado
 
-Última versión: **[v1.2 — Exclamaciones verticales y legibles](../../releases/tag/v1.2)**.
+Última versión: **[v1.3 — J1/J2 con la fuente azul en entrenamiento](../../releases/tag/v1.3)**.
 
 | Parte | Estado |
 |---|---|
@@ -30,6 +30,11 @@ el parche está en **[Releases](../../releases)**.
 «HELP!» y las onomatopeyas dibujadas (KRAK, WHAM…).
 
 ### Comprobaciones y límites
+
+La **v1.3** corrige J1/J2 en los diálogos de entrenamiento: J y cifra usan la
+misma fuente azul degradada. Comprobados ambos diálogos con los cuatro personajes
+y dos rondas de entrenamiento ganadas mediante entradas de mando. Se conservan
+las exclamaciones verticales de v1.2 y el resto de correcciones.
 
 La **v1.2** redibuja «¡» y «!» verticales en las tres fuentes de texto, manteniendo
 el grosor, el color y el contorno. La fuente que recarga el entrenamiento recibe
@@ -64,7 +69,7 @@ parcial; no es una localización oficial.
 
 ## Cómo aplicar el parche
 
-1. Descarga **[Captain-America-and-the-Avengers-es-ES-v1.2.xdelta](../../releases/download/v1.2/Captain-America-and-the-Avengers-es-ES-v1.2.xdelta)**.
+1. Descarga **[Captain-America-and-the-Avengers-es-ES-v1.3.xdelta](../../releases/download/v1.3/Captain-America-and-the-Avengers-es-ES-v1.3.xdelta)**.
 2. Comprueba que tienes la ROM USA **original, sin cabecera adicional y sin otros parches**:
 
    | Dato | Valor |
@@ -79,17 +84,20 @@ parcial; no es una localización oficial.
    o con `xdelta3`:
 
    ```bash
-   xdelta3 -d -s "Captain America and the Avengers (USA).md" Captain-America-and-the-Avengers-es-ES-v1.2.xdelta "Captain America and the Avengers (es-ES).md"
+   xdelta3 -d -s "Captain America and the Avengers (USA).md" Captain-America-and-the-Avengers-es-ES-v1.3.xdelta "Captain America and the Avengers (es-ES).md"
    ```
 
 4. La ROM resultante ocupa también **1.048.576 bytes**. Su MD5 debe ser
-   `ffa59337251464c318efd09a51d51374` y su SHA-256:
-   `ce70a01e0aa4706bcae5b758bf28176a6c8ef3c92ad34512469e8e96988dfa86`.
+   `f3c16589c3d64eda60ec58347582e738` y su SHA-256:
+   `aabef6d66d844824987de78e665399abd429255be810e18de5d41137a4552f48`.
 5. Inicia una partida nueva. No cargues un estado de emulador creado con otra versión.
 
 Aplica cada versión sobre el **original USA**, no sobre una ROM traducida.
 
 ## Cambios por versión
+
+- **v1.3** — J1/J2 usan la fuente azul del HUD también en los diálogos de
+  entrenamiento, antes y después del combate; reemplaza la J blanca.
 
 - **v1.2** — Exclamaciones de apertura y cierre verticales, con punto separado;
   sustituyen los signos inclinados heredados del original. Capturas renovadas.
