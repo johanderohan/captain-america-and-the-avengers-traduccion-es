@@ -2,6 +2,8 @@
 
 [![Invítame a un café en Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/johanderohan)
 
+Ficha del proyecto, capturas y más traducciones al castellano en **[Parches en Castellano](https://parchesencastellano.com/traducciones/mega-drive/captain-america-and-the-avengers)**.
+
 Traducción al **español de España** de *Captain America and the Avengers*
 (Mega Drive, 1992), el beat 'em up de Data East con licencia de Marvel.
 
